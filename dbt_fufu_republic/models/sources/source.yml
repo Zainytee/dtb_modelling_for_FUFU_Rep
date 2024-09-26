@@ -1,0 +1,27 @@
+version: 2
+
+sources:
+  - name: fufu_republic
+    database: RAW
+    schema: Stripe
+    tables:
+      - name: customers
+        description: "Raw customer data from Fufu Republic."
+        freshness:
+          warn_after: {count: 1, period: day}  # Warn if data is older than 1 day
+          error_after: {count: 2, period: day}  # Error if data is older than 2 days
+      - name: menu_items
+        description: "Raw menu items data from Fufu Republic."
+        freshness:
+          warn_after: {count: 1, period: day}  # Warn if data is older than 1 day
+          error_after: {count: 2, period: day}  # Error if data is older than 2 days
+      - name: branches
+        description: "Raw branch data from Fufu Republic."
+        freshness:
+          warn_after: {count: 1, period: day}  # Warn if data is older than 1 day
+          error_after: {count: 2, period: day}  # Error if data is older than 2 days
+      - name: transactions
+        description: "Raw transactions data from Fufu Republic."
+        freshness:
+          warn_after: {count: 1, period: day}  # Warn if data is older than 1 day
+          error_after: {count: 2, period: day}  # Error if data is older than 2 days

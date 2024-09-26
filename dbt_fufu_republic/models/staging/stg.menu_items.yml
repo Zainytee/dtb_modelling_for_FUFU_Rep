@@ -1,0 +1,17 @@
+version: 2
+
+models:
+  - name: stg_menu_items
+    description: "Staging model for menu items"
+    columns:
+      - name: id
+        description: "Primary key for menu items"
+        tests:
+          - not_null
+          - unique
+      - name: name
+        description: "Name of the menu item"
+      - name: price
+        description: "Price of the menu item"
+      - name: created_at
+        description: "Timestamp of menu item creation"

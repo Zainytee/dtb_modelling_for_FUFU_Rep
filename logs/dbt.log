@@ -1,0 +1,179 @@
+[0m22:36:36.825153 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C7F5B72450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C7F5029EE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C7F21D0830>]}
+
+
+============================== 22:36:36.825153 | 263d1bbe-f6ff-447e-bb46-1373af6f1d13 ==============================
+[0m22:36:36.825153 [info ] [MainThread]: Running with dbt=1.8.7
+[0m22:36:36.825153 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': 'C:\\Users\\zaina\\.dbt', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt init dbt_fufu_republic', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m22:36:36.860798 [debug] [MainThread]: Starter project path: C:\Users\zaina\anaconda3\envs\dbt_project\Lib\site-packages\dbt\include\starter_project
+[0m22:36:36.883536 [info ] [MainThread]: 
+Your new dbt project "dbt_fufu_republic" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m22:36:36.886537 [info ] [MainThread]: Setting up your profile.
+[0m22:38:07.643298 [info ] [MainThread]: Profile dbt_fufu_republic written to C:\Users\zaina\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m22:38:07.663379 [debug] [MainThread]: Command `dbt init` succeeded at 22:38:07.663379 after 91.02 seconds
+[0m22:38:07.666933 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C7F575EDB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C7F539A990>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C7F5399BB0>]}
+[0m22:38:07.673282 [debug] [MainThread]: Flushing usage events
+[0m22:38:21.908289 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BB48BDD550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BB47C50980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BB4B2FA030>]}
+
+
+============================== 22:38:21.910399 | 2b8ac91f-b759-4671-a2db-08a65f5bd882 ==============================
+[0m22:38:21.910399 [info ] [MainThread]: Running with dbt=1.8.7
+[0m22:38:21.910399 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\zaina\\.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt debug --profile dbt_fufu_republic', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m22:38:21.932487 [info ] [MainThread]: dbt version: 1.8.7
+[0m22:38:21.932487 [info ] [MainThread]: python version: 3.12.4
+[0m22:38:21.936805 [info ] [MainThread]: python path: C:\Users\zaina\anaconda3\envs\dbt_project\python.exe
+[0m22:38:21.938127 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m22:38:23.338798 [info ] [MainThread]: Using profiles dir at C:\Users\zaina\.dbt
+[0m22:38:23.338798 [info ] [MainThread]: Using profiles.yml file at C:\Users\zaina\.dbt\profiles.yml
+[0m22:38:23.338798 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\zaina\Documents\Core_Data_Engineering\DBT_MODELLING\dtb_modelling_for_FUFU_Rep\dbt_project.yml
+[0m22:38:23.338798 [info ] [MainThread]: adapter type: snowflake
+[0m22:38:23.338798 [info ] [MainThread]: adapter version: 1.8.3
+[0m22:38:23.338798 [info ] [MainThread]: Configuration:
+[0m22:38:23.350141 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m22:38:23.351746 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m22:38:23.352754 [info ] [MainThread]: Required dependencies:
+[0m22:38:23.353753 [debug] [MainThread]: Executing "git --help"
+[0m22:38:23.406095 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m22:38:23.420402 [debug] [MainThread]: STDERR: "b''"
+[0m22:38:23.420402 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m22:38:23.421433 [info ] [MainThread]: Connection:
+[0m22:38:23.422435 [info ] [MainThread]:   account: YF21087
+[0m22:38:23.423430 [info ] [MainThread]:   user: Zainab
+[0m22:38:23.424435 [info ] [MainThread]:   database: RAW
+[0m22:38:23.424435 [info ] [MainThread]:   warehouse: COMPUTE_WH
+[0m22:38:23.425436 [info ] [MainThread]:   role: ACCOUNTADMIN
+[0m22:38:23.425436 [info ] [MainThread]:   schema: Public
+[0m22:38:23.426435 [info ] [MainThread]:   authenticator: None
+[0m22:38:23.427436 [info ] [MainThread]:   oauth_client_id: None
+[0m22:38:23.428617 [info ] [MainThread]:   query_tag: None
+[0m22:38:23.429657 [info ] [MainThread]:   client_session_keep_alive: False
+[0m22:38:23.430654 [info ] [MainThread]:   host: None
+[0m22:38:23.430654 [info ] [MainThread]:   port: None
+[0m22:38:23.431654 [info ] [MainThread]:   proxy_host: None
+[0m22:38:23.431654 [info ] [MainThread]:   proxy_port: None
+[0m22:38:23.433185 [info ] [MainThread]:   protocol: None
+[0m22:38:23.433698 [info ] [MainThread]:   connect_retries: 1
+[0m22:38:23.433698 [info ] [MainThread]:   connect_timeout: None
+[0m22:38:23.434704 [info ] [MainThread]:   retry_on_database_errors: False
+[0m22:38:23.435703 [info ] [MainThread]:   retry_all: False
+[0m22:38:23.435703 [info ] [MainThread]:   insecure_mode: False
+[0m22:38:23.436703 [info ] [MainThread]:   reuse_connections: None
+[0m22:38:23.437704 [info ] [MainThread]: Registered adapter: snowflake=1.8.3
+[0m22:38:23.438658 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m22:38:23.439737 [debug] [MainThread]: Using snowflake connection "debug"
+[0m22:38:23.440743 [debug] [MainThread]: On debug: select 1 as id
+[0m22:38:23.440743 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m22:38:26.567228 [debug] [MainThread]: Snowflake adapter: Error running SQL: select 1 as id
+[0m22:38:26.567228 [debug] [MainThread]: Snowflake adapter: Rolling back transaction.
+[0m22:38:26.567228 [debug] [MainThread]: On debug: No close available on handle
+[0m22:38:26.576313 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m22:38:26.576313 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m22:38:26.578994 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\zaina\Documents\Core_Data_Engineering\DBT_MODELLING\dtb_modelling_for_FUFU_Rep\dbt_project.yml> not found
+
+[0m22:38:26.581064 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  250001: Could not connect to Snowflake backend after 2 attempt(s).Aborting
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m22:38:26.583876 [debug] [MainThread]: Command `dbt debug` failed at 22:38:26.583876 after 4.85 seconds
+[0m22:38:26.583876 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m22:38:26.585070 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BB4B55E150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BB4EAAD370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BB4DD74770>]}
+[0m22:38:26.585579 [debug] [MainThread]: Flushing usage events
+[0m22:46:34.034456 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018D627ED550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018D61B208F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018D64C5E6F0>]}
+
+
+============================== 22:46:34.034456 | f18820a6-e254-4013-99c9-b9d60ae14dad ==============================
+[0m22:46:34.034456 [info ] [MainThread]: Running with dbt=1.8.7
+[0m22:46:34.041961 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\zaina\\.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt debug --profile dbt_fufu_republic', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m22:46:34.070172 [info ] [MainThread]: dbt version: 1.8.7
+[0m22:46:34.070172 [info ] [MainThread]: python version: 3.12.4
+[0m22:46:34.070172 [info ] [MainThread]: python path: C:\Users\zaina\anaconda3\envs\dbt_project\python.exe
+[0m22:46:34.070172 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m22:46:36.005417 [info ] [MainThread]: Using profiles dir at C:\Users\zaina\.dbt
+[0m22:46:36.005417 [info ] [MainThread]: Using profiles.yml file at C:\Users\zaina\.dbt\profiles.yml
+[0m22:46:36.021263 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\zaina\Documents\Core_Data_Engineering\DBT_MODELLING\dtb_modelling_for_FUFU_Rep\dbt_project.yml
+[0m22:46:36.021263 [info ] [MainThread]: adapter type: snowflake
+[0m22:46:36.021263 [info ] [MainThread]: adapter version: 1.8.3
+[0m22:46:36.021263 [info ] [MainThread]: Configuration:
+[0m22:46:36.025846 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m22:46:36.028177 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m22:46:36.030231 [info ] [MainThread]: Required dependencies:
+[0m22:46:36.031060 [debug] [MainThread]: Executing "git --help"
+[0m22:46:36.090594 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m22:46:36.091594 [debug] [MainThread]: STDERR: "b''"
+[0m22:46:36.092594 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m22:46:36.093594 [info ] [MainThread]: Connection:
+[0m22:46:36.093594 [info ] [MainThread]:   account: tu37133.eu-central-2.aws
+[0m22:46:36.094594 [info ] [MainThread]:   user: Zainab
+[0m22:46:36.095594 [info ] [MainThread]:   database: RAW
+[0m22:46:36.096594 [info ] [MainThread]:   warehouse: COMPUTE_WH
+[0m22:46:36.096594 [info ] [MainThread]:   role: ACCOUNTADMIN
+[0m22:46:36.097594 [info ] [MainThread]:   schema: Stripe
+[0m22:46:36.098594 [info ] [MainThread]:   authenticator: None
+[0m22:46:36.098594 [info ] [MainThread]:   oauth_client_id: None
+[0m22:46:36.099594 [info ] [MainThread]:   query_tag: None
+[0m22:46:36.100594 [info ] [MainThread]:   client_session_keep_alive: False
+[0m22:46:36.100594 [info ] [MainThread]:   host: None
+[0m22:46:36.101594 [info ] [MainThread]:   port: None
+[0m22:46:36.102594 [info ] [MainThread]:   proxy_host: None
+[0m22:46:36.102594 [info ] [MainThread]:   proxy_port: None
+[0m22:46:36.103594 [info ] [MainThread]:   protocol: None
+[0m22:46:36.103594 [info ] [MainThread]:   connect_retries: 1
+[0m22:46:36.104594 [info ] [MainThread]:   connect_timeout: None
+[0m22:46:36.105594 [info ] [MainThread]:   retry_on_database_errors: False
+[0m22:46:36.106594 [info ] [MainThread]:   retry_all: False
+[0m22:46:36.107460 [info ] [MainThread]:   insecure_mode: False
+[0m22:46:36.108723 [info ] [MainThread]:   reuse_connections: None
+[0m22:46:36.112086 [info ] [MainThread]: Registered adapter: snowflake=1.8.3
+[0m22:46:36.113094 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m22:46:36.114093 [debug] [MainThread]: Using snowflake connection "debug"
+[0m22:46:36.114935 [debug] [MainThread]: On debug: select 1 as id
+[0m22:46:36.114935 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m22:46:40.685143 [debug] [MainThread]: SQL status: SUCCESS 1 in 4.570 seconds
+[0m22:46:40.685143 [debug] [MainThread]: On debug: Close
+[0m22:46:41.004598 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m22:46:41.004598 [info ] [MainThread]: [31m1 check failed:[0m
+[0m22:46:41.004598 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\zaina\Documents\Core_Data_Engineering\DBT_MODELLING\dtb_modelling_for_FUFU_Rep\dbt_project.yml> not found
+
+[0m22:46:41.004598 [debug] [MainThread]: Command `dbt debug` failed at 22:46:41.004598 after 7.26 seconds
+[0m22:46:41.004598 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m22:46:41.004598 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018D627ED550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018D67764AA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018D6527AC00>]}
+[0m22:46:41.004598 [debug] [MainThread]: Flushing usage events
+[0m21:31:37.028581 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020C7A043050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020C7C7ED8E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020C7C22FB60>]}
+
+
+============================== 21:31:37.034587 | 1693f3b7-8b4c-4e94-8ca0-9cb167b46744 ==============================
+[0m21:31:37.034587 [info ] [MainThread]: Running with dbt=1.8.7
+[0m21:31:37.034587 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\zaina\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt seed', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m21:31:37.034587 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\zaina\Documents\Core_Data_Engineering\DBT_MODELLING\dtb_modelling_for_FUFU_Rep\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m21:31:37.034587 [debug] [MainThread]: Command `dbt seed` failed at 21:31:37.034587 after 0.28 seconds
+[0m21:31:37.034587 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020C7A043050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020C7CAFE4B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020C7CAFE1B0>]}
+[0m21:31:37.034587 [debug] [MainThread]: Flushing usage events

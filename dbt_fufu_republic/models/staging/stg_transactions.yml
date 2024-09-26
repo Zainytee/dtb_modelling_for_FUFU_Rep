@@ -1,0 +1,27 @@
+version: 2
+
+models:
+  - name: stg_transactions
+    description: "Staging model for transactions that maps 1:1 with the source transactions table."
+    columns:
+      - name: transaction_id
+        description: "Unique identifier for each transaction."
+        tests:
+          - not_null: {}  # To Ensures that the transaction_id is not null
+          - unique: {}  # To Ensures that the transaction_id is unique
+      - name: customer_id
+        description: "Foreign key referencing the customers table."
+      - name: branch_id
+        description: "Foreign key referencing the branches table."
+      - name: menu_item_id
+        description: "Foreign key referencing the menu_items table."
+      - name: transaction_date
+        description: "Date of the transaction."
+        tests:
+          - not_null: {}
+      - name: total_amount
+        description: "Total amount for the transaction."
+        tests:
+          - not_null: {}
+      - name: quantity
+        description: "Quantity of items in the transaction."

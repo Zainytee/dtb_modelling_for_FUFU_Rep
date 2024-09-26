@@ -1,0 +1,51 @@
+item_id,name,price,item_category,food_description
+0c5ada72-d140-4250-9b13-f4e037d5571c,Amala,6635.1,Beverage,Mouthwatering delight
+2c986b19-b333-43c0-afea-4e81225395d9,Efo Riro,3157.3,Main Course,Mouthwatering delight
+92f4b61d-ea43-4f34-9512-5081b0155745,Suya,4990.22,Appetizer,Authentic taste
+c400048e-ca69-467e-a7dc-cae9693446fb,Pepper Soup,4010.88,Main Course,A delightful blend of flavors
+cba34c2e-1fc5-453f-b235-45432e9139e1,Chicken Stew,3330.52,Dessert,Perfectly cooked
+cb084529-05ff-4e93-8206-9c121a58ab37,Fufu,5474.79,Appetizer,Authentic taste
+4048b46d-9d20-4dac-8568-db4c0d1533c5,Pounded Yam,7800.05,Beverage,Crispy and savory
+190f2e6b-ae62-4564-88ef-b4f63b4201de,Moi Moi,6034.15,Main Course,Succulent and juicy
+32ae38a2-1cd7-463f-ae06-27b08b775a6e,Egusi Soup,4814.68,Main Course,Crispy and savory
+a6f69db0-e249-4833-b0a1-8598a2a5a20f,Efo Riro,5921.58,Dessert,Homemade with love
+8cca0078-a623-4995-bc19-3d4aef44d7a1,Egusi Soup,9043.55,Appetizer,Freshly prepared
+ec37bf77-d24d-46f0-9c9f-03b2fa387c88,Goat Meat Peppersoup,9264.18,Beverage,Freshly prepared
+f514ddd0-cc60-42ed-8155-d641e7f7db72,Amala,6919.62,Beverage,Deliciously spicy
+a537e8b3-298e-4199-8138-46af27e0a401,Fried Rice,8545.04,Main Course,Succulent and juicy
+5379fde9-c991-4826-bd6b-139f7701e85e,Jollof Rice,9297.14,Dessert,Freshly prepared
+40a484f0-69e5-4d0f-82d9-3729cdbbe7e8,Goat Meat Peppersoup,4072.07,Main Course,Crispy and savory
+d1f2a17d-e4f7-4c1e-84a4-3210fc7a818d,Boli,4076.85,Appetizer,Deliciously spicy
+313e8e81-2828-4405-bafc-34250209ba18,Pounded Yam,6700.09,Beverage,Richly flavored
+3bc02c19-df8c-4ea1-b0ad-6c38594c5b93,Fufu,6729.23,Main Course,Freshly prepared
+57db85a0-8936-431a-ad11-93a44dd0345f,Goat Meat Peppersoup,8723.56,Main Course,Deliciously spicy
+abe16f26-8399-40d4-aee4-0b1cb9dc679d,Goat Meat Peppersoup,8499.67,Appetizer,A delightful blend of flavors
+0a05fc9c-16de-4ae1-b9c1-c6ba1fb01009,Juice,5930.39,Appetizer,Deliciously spicy
+e6deb1bf-5171-47ea-9e8d-6952abf657cd,Moi Moi,5541.48,Dessert,Authentic taste
+9a32d0f8-3d33-4c0a-8ed9-e785c6fce67c,Chicken Stew,5121.27,Appetizer,Perfectly cooked
+7613f8df-e6f9-4dac-85f5-7c487678116c,Amala,4760.96,Appetizer,Homemade with love
+4ac727b8-9062-4664-9c5f-2d266c57f04d,Beans and Plantain,9722.97,Dessert,Succulent and juicy
+74739b16-e5b8-42c1-aaf3-b13df1700149,Fried Rice,7669.05,Appetizer,Mouthwatering delight
+a6d9f276-b62b-47f5-ae86-b501adfd795e,Pounded Yam,9253.05,Beverage,Succulent and juicy
+b9c8cbb6-f6aa-420f-90e0-21f6f277a1c8,Suya,3785.8,Main Course,Freshly prepared
+18787a1a-212c-4040-aa65-07f428b141e7,Boli,5495.28,Appetizer,Richly flavored
+491fbf4e-fddc-475d-a05f-f17ded9cb70b,Goat Meat Peppersoup,5471.87,Main Course,Homemade with love
+d0d9f786-f3eb-4f10-a3e1-7a6a2543c8ac,Goat Meat Peppersoup,6531.48,Appetizer,A delightful blend of flavors
+6c2554d4-c727-4c89-9031-81b2c831e6c7,Suya,8721.31,Beverage,Mouthwatering delight
+b3966786-ba47-47e2-a68a-f8480c7db503,Suya,5120.3,Beverage,Mouthwatering delight
+f12f981b-cc01-498a-a175-04c85e7b4633,Chicken Stew,7842.98,Beverage,Homemade with love
+016c08ed-a4d4-491a-9fca-f2a5096265d3,Pounded Yam,3060.61,Main Course,Succulent and juicy
+496e02f7-ceb5-438a-91bb-fa01acd27f17,Fried Rice,8169.04,Beverage,Mouthwatering delight
+99bf5f91-060e-467d-83a5-f09e226a00cf,Boli,5992.64,Beverage,Crispy and savory
+eb0a9581-27d1-4ca1-86ef-fb95ce20e020,Fried Rice,6878.79,Beverage,Deliciously spicy
+8993cd23-1195-4bbc-ad10-dd90da62aed5,Efo Riro,8031.4,Main Course,A delightful blend of flavors
+4d4e594e-dfe5-466f-9e3a-2ceb0cfe54a9,Amala,7059.81,Appetizer,Authentic taste
+d305cd75-7538-4c9f-943d-8caa478f6b7f,Juice,4232.24,Appetizer,Crispy and savory
+4c97dbae-3d1e-4fa9-923f-580bac28ff35,Goat Meat Peppersoup,6813.65,Dessert,Richly flavored
+41af2d58-9866-47e0-b17b-72dcd08026ea,Amala,7676.32,Main Course,Perfectly cooked
+ca064b82-7d49-4d86-891d-86d70a9d6ee0,Efo Riro,6803.05,Appetizer,A delightful blend of flavors
+060fd081-45d6-4f31-ab99-f82f7bc34b13,Pounded Yam,8810.93,Appetizer,Richly flavored
+1e0bcc12-63cd-461b-85ff-d03947a960f0,Fried Rice,4708.33,Beverage,Crispy and savory
+07bba485-481e-4b1e-af12-daf3b91f0518,Wine,5810.78,Dessert,Mouthwatering delight
+bd5961bf-19fb-4260-b34b-bb97fe4747ee,Egusi Soup,3990.32,Dessert,Homemade with love
+5118fdd7-9c74-4bd9-8e31-336362edff12,Fufu,6639.34,Appetizer,Mouthwatering delight

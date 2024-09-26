@@ -1,0 +1,21 @@
+version: 2
+
+models:
+  - name: stg_branches
+    description: "Staging model for branches"
+    columns:
+      - name: id
+        description: "Primary key for branches"
+        tests:
+          - not_null
+          - unique
+      - name: name
+        description: "Name of the branch"
+      - name: location
+        description: "Location of the branch"
+      - name: city
+        description: "City where the branch is located"
+      - name: region
+        description: "Region where the branch is located"
+      - name: created_at
+        description: "Timestamp of branch creation"

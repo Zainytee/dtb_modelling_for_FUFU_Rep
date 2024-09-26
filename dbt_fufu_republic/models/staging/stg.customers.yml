@@ -1,0 +1,19 @@
+version: 2
+
+models:
+  - name: stg_customers
+    description: "Staging model for customers"
+    columns:
+      - name: id
+        description: "Primary key for customers"
+        tests:
+          - not_null
+          - unique
+      - name: first_name
+        description: "First name of the customer"
+      - name: last_name
+        description: "Last name of the customer"
+      - name: email
+        description: "Email address of the customer"
+      - name: created_at
+        description: "Timestamp of customer creation"
