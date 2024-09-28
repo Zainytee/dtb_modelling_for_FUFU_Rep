@@ -23,15 +23,16 @@ def random_region():
 def random_city():
     return random.choice(["Lagos", "Abuja", "Port Harcourt", "Ibadan", 'UYO', 'KANO'])
 
-nigerian_food_items = [
-    'Jollof Rice', 'Pounded Yam', 'Egusi Soup', 'Fufu', 
-    'Efo Riro', 'Fried Rice', 'Beans and Plantain', 'Suya',
-    'Moi Moi', 'Pepper Soup', 'Akara', 'Ogbono Soup', 'Amala',
-    'Boli', 'Chicken Stew', 'Goat Meat Peppersoup', 'Ewa Agoyin','Juice','Wine'
-]
-
 def random_name():
+    nigerian_food_items = [
+        'Jollof Rice', 'Pounded Yam', 'Egusi Soup', 'Fufu', 
+        'Efo Riro', 'Fried Rice', 'Beans and Plantain', 'Suya',
+        'Moi Moi', 'Pepper Soup', 'Akara', 'Ogbono Soup', 'Amala',
+        'Boli', 'Chicken Stew', 'Goat Meat Peppersoup', 'Ewa Agoyin', 
+        'Juice', 'Wine'
+    ]
     return random.choice(nigerian_food_items)
+
 
 def random_food_description():
     descriptions = [
@@ -62,7 +63,7 @@ def generate_customers(num_records):
 # Generate synthetic menu data without duplicates
 def generate_menu_items(num_records):
     menu_items = []
-    while len(menu_items) < num_records:
+    for _ in range(num_records):
         menu_item = {
             'item_id': fake.uuid4(),
             'name': random_name(),

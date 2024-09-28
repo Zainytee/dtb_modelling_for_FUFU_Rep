@@ -1,3 +1,5 @@
+#### Rough shee
+
 #Importing necessary libraries
 import os
 from faker import Faker
@@ -158,4 +160,23 @@ print("Synthetic data generated and saved as CSV files!")
 
 
 
+from faker import Faker
+import csv
+
+fake = Faker()
+
+# Example for generating branches
+def generate_branches(num_rows):
+    with open('branches.csv', 'w', newline='') as file:
+        writer = csv.writer(file)
+        writer.writerow(["branch_id", "branch_name", "location", "created_at"])
+        for _ in range(num_rows):
+            writer.writerow([
+                fake.unique.random_int(min=1, max=1000),
+                fake.company(),
+                fake.address(),
+                fake.date_time_this_decade()
+            ])
+
+generate_branches(100)  # Generate 100 branch records
 
